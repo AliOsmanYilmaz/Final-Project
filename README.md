@@ -28,6 +28,7 @@ A Windows Forms desktop application built with C# (.NET Framework 4.7.2) and MyS
 2. Open `FinalProject.sln` in Visual Studio
 3. Restore NuGet packages (right-click solution → *Restore NuGet Packages*)
 4. Make sure MySQL Server is running and update the connection string in `Form1.cs` if needed
+   > ⚠️ **Note:** Use your own MySQL username and password in the connection string.
 5. Run the project (`F5`)
 
 > The application will automatically create the `Hospital` database and `Doctors` table on first launch.
